@@ -783,12 +783,15 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
 }
 
 .work-img img {
   transition: all 1s;
-}
 
+}
 .work-content {
   padding: 2rem 3% 1rem 4%;
 }
