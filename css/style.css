@@ -118,6 +118,16 @@ a:hover {
   display: table-cell;
   vertical-align: middle;
 }
+/* logo */
+
+.witdh-80{
+  width: 100px;
+  height: 100px;
+}
+
+.witdh-80 img{
+  width: 100%;
+}
 
 /*--/ Sections /--*/
 
