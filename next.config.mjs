@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  // === STATIC EXPORT MODE ===
+  output: 'export',
+};
 
-export default nextConfig
+// Export ESM-style
+export default nextConfig;
