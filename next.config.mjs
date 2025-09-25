@@ -10,8 +10,10 @@ const nextConfig = {
     unoptimized: true,
   },
   // === STATIC EXPORT MODE ===
-  output: 'export',
+  //output: 'export',
+  // === GITHUB PAGES compatibility ===
+  //basePath: '/Portfolio-2.0',
+  //assetPrefix: '/Portfolio-2.0/',
 };
 
-// Export ESM-style
 export default nextConfig;
