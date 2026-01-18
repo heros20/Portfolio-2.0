@@ -5,10 +5,19 @@ import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 
 const projects = [
+   {
+    title: "Jeu Mobile : Le Coeur d'Epheria",
+    description:
+      "Jeu web RPG dark fantasy développé from scratch en JavaScript : exploration, puzzles, progression, boss fights et UI immersive, jouable PC et mobile.",
+    tech: ["JavaScript", "HTML", "CSS", "Supabase"],
+    image: "images/epheria.png",
+    link: "https://le-coeur-d-epheria.vercel.app/",
+    type: "Web",
+  },
   {
     title: "Site des Comets d'Honfleur",
     description:
-      "Vitrine moderne pour mon équipe de baseball, intégrant calendrier, résultats et actualités.",
+      "Site officiel des Comets d’Honfleur : plateforme web moderne avec actualités, calendrier, infos club et espace admin connecté à Supabase (gestion des membres, contenus et cotisations).",
     tech: ["Next.js", "Tailwind", "Supabase"],
     image: "images/screenshot-comets.png",
     link: "https://les-comets-honfleur.vercel.app",
