@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -9,11 +11,18 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+
   // === STATIC EXPORT MODE ===
-  //output: 'export',
+  output: 'export',
+
   // === GITHUB PAGES compatibility ===
-  //basePath: '/Portfolio-2.0',
-  //assetPrefix: '/Portfolio-2.0/',
+  basePath: isProd ? '/Portfolio-2.0' : '',
+  assetPrefix: isProd ? '/Portfolio-2.0/' : '',
+  trailingSlash: true,
+
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? '/Portfolio-2.0' : '',
+  },
 };
 
 export default nextConfig;
