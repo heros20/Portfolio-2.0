@@ -195,7 +195,7 @@ export default function ProjectsAdmin() {
       setSettings({ ...defaultSettings, ...JSON.parse(stored) });
     }
 
-    fetch(`${prefix}/projects.json`, { cache: "no-store" })
+    fetch(`${prefix}/projects.json?t=${Date.now()}`, { cache: "no-store" })
       .then((response) => response.json() as Promise<Project[]>)
       .then((data) => {
         if (Array.isArray(data)) {
@@ -284,7 +284,9 @@ export default function ProjectsAdmin() {
       }
       return [nextProject, ...current];
     });
-    setStatus("Projet pret a publier.");
+    setStatus(
+      "Projet ajoute a la liste. Clique sur Publier pour l'envoyer sur le site."
+    );
     resetForm();
   }
 
@@ -421,7 +423,9 @@ export default function ProjectsAdmin() {
 
       setPendingUploads({});
       setPendingPreviews({});
-      setStatus("Publie. GitHub Pages peut prendre quelques instants.");
+      setStatus(
+        "Publie sur GitHub. GitHub Pages peut prendre quelques instants, puis ouvre /projets en hard refresh."
+      );
     } catch (publishError) {
       setError(
         publishError instanceof Error
@@ -621,7 +625,7 @@ export default function ProjectsAdmin() {
                 className="flex-1 bg-[#B4F116] text-black hover:bg-[#D9FF6E]"
               >
                 <Plus />
-                {editingId ? "Mettre a jour" : "Ajouter"}
+                {editingId ? "Mettre a jour la liste" : "Ajouter a la liste"}
               </Button>
               <Button
                 type="button"

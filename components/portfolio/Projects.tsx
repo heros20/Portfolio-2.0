@@ -16,7 +16,7 @@ export default function Projects() {
   useEffect(() => {
     let mounted = true;
 
-    fetch(`${prefix}/projects.json`, { cache: "no-store" })
+    fetch(`${prefix}/projects.json?t=${Date.now()}`, { cache: "no-store" })
       .then((response) => {
         if (!response.ok) {
           throw new Error("Unable to load projects");

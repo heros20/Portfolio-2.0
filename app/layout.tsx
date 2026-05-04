@@ -3,6 +3,9 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
+import HyperNav from "@/components/nav/HyperNav";
+import Footer from "@/components/portfolio/Footer";
+
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const metadata: Metadata = {
@@ -77,7 +80,9 @@ export default function RootLayout({
       <body
         className={`${GeistSans.className} ${GeistMono.variable} min-h-screen overflow-x-hidden bg-[#0A0A0A] text-white`}
       >
+        <HyperNav />
         {children}
+        <Footer />
       </body>
     </html>
   );
