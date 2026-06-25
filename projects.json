@@ -1,5 +1,16 @@
 [
   {
+    "id": "fastdrop-partage-de-fichiers-securise",
+    "title": "FastDrop – Partage de fichiers sécurisé",
+    "description": "Plateforme de partage de fichiers permettant de générer des liens de téléchargement temporaires en quelques secondes. Les fichiers sont stockés sur Cloudflare R2, les métadonnées gérées dans une base D1 et l'ensemble est optimisé pour offrir des transferts rapides, fiables et sécurisés.",
+    "tech": [
+      "Next.js • TypeScript • Cloudflare Workers • Cloudflare R2 • SQLite (D1) • Tailwind CSS • Vercel"
+    ],
+    "image": "/images/https-fastdrop-seven-vercel-app-1782427749660.png",
+    "link": "https://fastdrop-seven.vercel.app/",
+    "type": "Web"
+  },
+  {
     "id": "devix-editeur-de-devis-et-factures",
     "title": "Devix – Éditeur de devis et factures",
     "description": "Application de gestion commerciale pensée pour créer et gérer des devis, bons de commande et factures. Devix combine une interface web moderne avec une version desktop Electron, une base Supabase et des outils pratiques pour simplifier le suivi administratif.",
