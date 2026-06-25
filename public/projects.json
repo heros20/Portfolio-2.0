@@ -1,5 +1,16 @@
 [
   {
+    "id": "epicap-plateforme-e-commerce-b2b",
+    "title": "EPICAP – Plateforme e-commerce B2B",
+    "description": "Plateforme e-commerce professionnelle dédiée au secteur du désamiantage. Gestion du catalogue, commandes, espace client, formulaires de contact et interface d'administration complète, avec une expérience moderne et des performances optimisées.",
+    "tech": [
+      "Next.js • TypeScript • Tailwind CSS • Supabase • PostgreSQL • Stripe • Brevo • Vercel"
+    ],
+    "image": "/images/epicap-1782427186720.png",
+    "link": "https://epicap.vercel.app/",
+    "type": "Web"
+  },
+  {
     "id": "label2a4",
     "title": "Label2A4",
     "description": "Regroupez vos étiquettes PDF Chronopost, Colissimo, Mondial Relay, Happy Post, FedEx et DHL sur des feuilles A4 x4 prêtes à imprimer.",
