@@ -1,5 +1,20 @@
 [
   {
+    "id": "bibliotheque-d-ecriture",
+    "title": "Bibliothèque d'écriture",
+    "description": "Application web dédiée à l'écriture et à l'organisation de romans. Gestion des livres, chapitres et artbooks dans une interface moderne, pensée pour offrir une expérience de lecture et d'édition fluide et immersive.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Supabase",
+      "Vercel"
+    ],
+    "image": "/images/book-1782427471826.png",
+    "link": "https://github.com/heros20/Book-of-Mey",
+    "type": "Web"
+  },
+  {
     "id": "epicap-plateforme-e-commerce-b2b",
     "title": "EPICAP – Plateforme e-commerce B2B",
     "description": "Plateforme e-commerce professionnelle dédiée au secteur du désamiantage. Gestion du catalogue, commandes, espace client, formulaires de contact et interface d'administration complète, avec une expérience moderne et des performances optimisées.",
