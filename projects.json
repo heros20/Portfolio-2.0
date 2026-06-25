@@ -1,5 +1,16 @@
 [
   {
+    "id": "pdf-image-toolkit",
+    "title": "PDF & Image Toolkit",
+    "description": "Plateforme web tout-en-un pour la manipulation de fichiers PDF, images et documents Office. L’application regroupe des outils avancés de fusion, découpage, conversion, OCR et export afin d’automatiser les traitements documentaires dans une interface moderne et performante.",
+    "tech": [
+      "Next.js • TypeScript • Tailwind CSS • OpenAI • PDF.js • pdf-lib • Tesseract OCR • ExcelJS • Docx • PptxGenJS • Vercel"
+    ],
+    "image": "/images/pdf-love-1782428675390.png",
+    "link": "https://fusion-rogner-pdf-images.vercel.app/",
+    "type": "Web"
+  },
+  {
     "id": "label2a4-optimiseur-d-impression-pdf",
     "title": "Label2A4 – Optimiseur d’impression PDF",
     "description": "Application web permettant d’optimiser l’impression de fichiers PDF en regroupant plusieurs pages sur une seule feuille A4. Label2A4 vise à réduire le gaspillage papier grâce à une interface simple, un traitement PDF côté application et une gestion utilisateur connectée à Supabase.",
