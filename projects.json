@@ -1,5 +1,21 @@
 [
   {
+    "id": "jarvis-assistant-personnel-intelligent",
+    "title": "JARVIS – Assistant personnel intelligent",
+    "description": "Assistant personnel intelligent inspiré des interfaces futuristes, conçu pour comprendre le contexte utilisateur, centraliser les échanges et automatiser progressivement des actions du quotidien.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Supabase",
+      "OpenAI API",
+      "Vercel"
+    ],
+    "image": "/images/jarvis-1782427864987.png",
+    "link": "https://github.com/heros20/JARVIS",
+    "type": "Autre"
+  },
+  {
     "id": "fastdrop-partage-de-fichiers-securise",
     "title": "FastDrop – Partage de fichiers sécurisé",
     "description": "Plateforme de partage de fichiers permettant de générer des liens de téléchargement temporaires en quelques secondes. Les fichiers sont stockés sur Cloudflare R2, les métadonnées gérées dans une base D1 et l'ensemble est optimisé pour offrir des transferts rapides, fiables et sécurisés.",
