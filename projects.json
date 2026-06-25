@@ -1,5 +1,20 @@
 [
   {
+    "id": "devix-editeur-de-devis-et-factures",
+    "title": "Devix – Éditeur de devis et factures",
+    "description": "Application de gestion commerciale pensée pour créer et gérer des devis, bons de commande et factures. Devix combine une interface web moderne avec une version desktop Electron, une base Supabase et des outils pratiques pour simplifier le suivi administratif.",
+    "tech": [
+      "Electron",
+      "React",
+      "Vite",
+      "TypeScript",
+      "Supabase"
+    ],
+    "image": "/images/devix-1782427658400.png",
+    "link": "https://devix-2.vercel.app/",
+    "type": "Web"
+  },
+  {
     "id": "bibliotheque-d-ecriture",
     "title": "Bibliothèque d'écriture",
     "description": "Application web dédiée à l'écriture et à l'organisation de romans. Gestion des livres, chapitres et artbooks dans une interface moderne, pensée pour offrir une expérience de lecture et d'édition fluide et immersive.",
