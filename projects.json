@@ -1,5 +1,20 @@
 [
   {
+    "id": "team-baguette-projet-collaboratif-web",
+    "title": "Team Baguette – Projet collaboratif web",
+    "description": "Projet web collaboratif développé en équipe, avec une interface moderne déployée sur Vercel. Cette collaboration met en avant le travail en équipe, l’intégration de composants front-end, la structuration d’un projet Next.js et la participation à un produit commun en conditions réelles.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Supabase",
+      "Vercel"
+    ],
+    "image": "/images/baguette-1782428213602.png",
+    "link": "https://team-baguette.vercel.app/",
+    "type": "Web"
+  },
+  {
     "id": "jarvis-assistant-personnel-intelligent",
     "title": "JARVIS – Assistant personnel intelligent",
     "description": "Assistant personnel intelligent inspiré des interfaces futuristes, conçu pour comprendre le contexte utilisateur, centraliser les échanges et automatiser progressivement des actions du quotidien.",
