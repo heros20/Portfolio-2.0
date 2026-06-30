@@ -156,10 +156,10 @@ export default function Projects() {
 
         <div className="mt-10 flex justify-center">
           <Link
-            href="/#contact"
+            href="/contact"
             className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl border border-[#B4F116]/30 bg-[#B4F116]/10 px-4 py-2.5 text-sm font-semibold text-[#D9FF6E]"
           >
-            Un projet en tete ? Parlons-en
+            Un projet en tête ? Parlons-en
             <span className="absolute inset-0 -z-0 translate-y-[60%] bg-gradient-to-t from-[#B4F116]/40 to-transparent transition-transform duration-300 group-hover:translate-y-[10%]" />
           </Link>
         </div>
